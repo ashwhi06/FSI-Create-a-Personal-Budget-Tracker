@@ -17,3 +17,11 @@ for(let i = 0; i < annualExpenseQuestions.length; i++){
     let answer = parseFloat(window.prompt(annualExpenseQuestions[i]))
     annualExpenses = annualExpenses + answer
 }
+
+//While loops
+// let i = 0;
+// let answer = parseFloat(window.prompt(weeklyExpenseQuestions[i]));
+// while (i < monthlyExpenseQuestions.length) {
+//     weeklyExpenses = weeklyExpenses + answer;
+//     i++;
+// }
